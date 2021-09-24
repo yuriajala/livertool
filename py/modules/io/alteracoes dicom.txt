@@ -1,0 +1,398 @@
+
+-> mudar (0008, 0008) Image Type                          CS: ['DERIVED', 'SECONDARY', 'FAT FRACTION MAP', 'NONE']
+(0008, 0012) Instance Creation Date              DA: 'AAAAMMDD'
+(0008, 0013) Instance Creation Time              TM: 'HHMMSS'
+(0008, 0018) SOP Instance UID                    UI: 1.3.46.670589.11.17491.5.20.1.1.6808.AAAAMMDDHHMMSS28160 -> 28160 = RANDOM ou milissegundos
+-> tentar eliminar "Private tag data"
+-> tentar eliminar "Private Creator"
+-> mudar (0028, 0008) Number of Frames                    IS: '231'
+
+se anonimo:
+-> apagar (0010, 0010) Patient's Name
+- apagar (0032, 1032) Requesting Physician
+
+
+
+
+
+INICIAL:
+(0008, 0000) Group Length                        UL: 730
+(0008, 0005) Specific Character Set              CS: 'ISO_IR 100'
+(0008, 0008) Image Type                          CS: ['ORIGINAL', 'PRIMARY', 'T1', 'NONE']
+(0008, 0012) Instance Creation Date              DA: '20100611'
+(0008, 0013) Instance Creation Time              TM: '105639'
+(0008, 0014) Instance Creator UID                UI: 1.3.46.670589.11.17491.5
+(0008, 0016) SOP Class UID                       UI: Enhanced MR Image Storage
+(0008, 0018) SOP Instance UID                    UI: 1.3.46.670589.11.17491.5.20.1.1.6808.2010061110220628160
+(0008, 0020) Study Date                          DA: '20100611'
+(0008, 0021) Series Date                         DA: '20100611'
+(0008, 0023) Content Date                        DA: '20100611'
+(0008, 002a) Acquisition DateTime                DT: '20100611102206.26000'
+(0008, 0030) Study Time                          TM: '100244'
+(0008, 0031) Series Time                         TM: '102206.26000'
+(0008, 0033) Content Time                        TM: '105641'
+(0008, 0050) Accession Number                    SH: '0100020004917501'
+(0008, 0060) Modality                            CS: 'MR'
+(0008, 0070) Manufacturer                        LO: 'Philips Medical Systems'
+(0008, 0080) Institution Name                    LO: 'Labs Botafogo'
+(0008, 0090) Referring Physician's Name          PN: ''
+(0008, 0100) Code Value                          SH: ''
+(0008, 0102) Coding Scheme Designator            SH: 'DCM'
+(0008, 0104) Code Meaning                        LO: ''
+(0008, 1010) Station Name                        SH: 'PHILIPS-884324D'
+(0008, 1030) Study Description                   LO: 'RESSONANCIA MAGNETICA DE ABDOME SUPERIOR'
+(0008, 103e) Series Description                  LO: 'OUT/IN PHASE 6 ECOS_PI1002'
+(0008, 1040) Institutional Department Name       LO: 'Ressonancia'
+(0008, 1070) Operators' Name                     PN: ''
+(0008, 1080) Admitting Diagnoses Description     LO: ''
+(0008, 1090) Manufacturer's Model Name           LO: 'Achieva'
+(0008, 1111)  Referenced Performed Procedure Step Sequence   1 item(s) ---- 
+   (0008, 0012) Instance Creation Date              DA: '20100611'
+   (0008, 0013) Instance Creation Time              TM: '105622'
+   (0008, 0014) Instance Creator UID                UI: 1.3.46.670589.11.17491.5
+   (0008, 1150) Referenced SOP Class UID            UI: Modality Performed Procedure Step SOP Class
+   (0008, 1155) Referenced SOP Instance UID         UI: 1.3.46.670589.11.17491.5.0.5392.2010061110024418118
+   (0020, 0013) Instance Number                     IS: '0'
+   (2005, 0014) Private Creator                     OB: Array of 26 bytes
+   (2005, 1406) Private tag data                    OB: b'\x00\x00'
+   ---------
+(0008, 9092)  Referenced Image Evidence Sequence   3 item(s) ---- 
+   (0008, 1115)  Referenced Series Sequence   1 item(s) ---- 
+      (0008, 1199)  Referenced SOP Sequence   1 item(s) ---- 
+         (0008, 1150) Referenced SOP Class UID            UI: Enhanced MR Image Storage
+         (0008, 1155) Referenced SOP Instance UID         UI: 1.3.46.670589.11.17491.5.743493204.1.1.6808.2010061110090906903
+         ---------
+      (0020, 000e) Series Instance UID                 UI: 1.3.46.670589.11.17491.5.0.6808.2010061110090906903
+      ---------
+   (0020, 000d) Study Instance UID                  UI: 1.3.840.20100611.10100020004917501
+   ---------
+   (0008, 1115)  Referenced Series Sequence   1 item(s) ---- 
+      (0008, 1199)  Referenced SOP Sequence   1 item(s) ---- 
+         (0008, 1150) Referenced SOP Class UID            UI: Enhanced MR Image Storage
+         (0008, 1155) Referenced SOP Instance UID         UI: 1.3.46.670589.11.17491.5.808055348.1.1.6808.2010061110055329880
+         ---------
+      (0020, 000e) Series Instance UID                 UI: 1.3.46.670589.11.17491.5.0.6808.2010061110055329880
+      ---------
+   (0020, 000d) Study Instance UID                  UI: 1.3.840.20100611.10100020004917501
+   ---------
+   (0008, 1115)  Referenced Series Sequence   1 item(s) ---- 
+      (0008, 1199)  Referenced SOP Sequence   1 item(s) ---- 
+         (0008, 1150) Referenced SOP Class UID            UI: Enhanced MR Image Storage
+         (0008, 1155) Referenced SOP Instance UID         UI: 1.3.46.670589.11.17491.5.808055348.1.1.6808.2010061110055329880
+         ---------
+      (0020, 000e) Series Instance UID                 UI: 1.3.46.670589.11.17491.5.0.6808.2010061110055329880
+      ---------
+   (0020, 000d) Study Instance UID                  UI: 1.3.840.20100611.10100020004917501
+   ---------
+(0008, 9123) Creator-Version UID                 UI: 1.3.46.670589.11
+(0008, 9205) Pixel Presentation                  CS: 'MONOCHROME'
+(0008, 9206) Volumetric Properties               CS: 'VOLUME'
+(0008, 9207) Volume Based Calculation Technique  CS: 'NONE'
+(0008, 9208) Complex Image Component             CS: 'MAGNITUDE'
+(0008, 9209) Acquisition Contrast                CS: 'T1'
+(0010, 0000) Group Length                        UL: 102
+(0010, 0010) Patient's Name                      PN: 'SHERLEI DA SILVA MARTINS'
+(0010, 0020) Patient ID                          LO: 'I4530792'
+(0010, 0030) Patient's Birth Date                DA: '19510210'
+(0010, 0040) Patient's Sex                       CS: 'F'
+(0010, 1000) Other Patient IDs                   LO: ''
+(0010, 1030) Patient's Weight                    DS: '73'
+(0010, 21c0) Pregnancy Status                    US: 4
+(0018, 0000) Group Length                        UL: 864
+(0018, 0015) Body Part Examined                  CS: 'LIVER'
+(0018, 0023) MR Acquisition Type                 CS: '2D'
+(0018, 0087) Magnetic Field Strength             DS: '3'
+(0018, 0088) Spacing Between Slices              DS: '7'
+(0018, 0095) Pixel Bandwidth                     DS: '1143'
+(0018, 1000) Device Serial Number                LO: '17491'
+(0018, 1020) Software Version(s)                 LO: ['2.6.3', '2.6.3.5']
+(0018, 1030) Protocol Name                       LO: 'OUT/IN PHASE 6 ECOS_PI1002 SENSE'
+(0018, 5100) Patient Position                    CS: 'HFS'
+(0018, 9004) Content Qualification               CS: 'RESEARCH'
+(0018, 9005) Pulse Sequence Name                 SH: 'FFE'
+(0018, 9008) Echo Pulse Sequence                 CS: 'GRADIENT'
+(0018, 9012) Multi-planar Excitation             CS: 'NO'
+(0018, 9014) Phase Contrast                      CS: 'NO'
+(0018, 9015) Time of Flight Contrast             CS: 'NO'
+(0018, 9016) Spoiling                            CS: 'NONE'
+(0018, 9017) Steady State Pulse Sequence         CS: 'NONE'
+(0018, 9018) Echo Planar Pulse Sequence          CS: 'NO'
+(0018, 9020) Magnetization Transfer              CS: 'NONE'
+(0018, 9021) T2 Preparation                      CS: 'NO'
+(0018, 9022) Blood Signal Nulling                CS: 'NO'
+(0018, 9024) Saturation Recovery                 CS: 'NO'
+(0018, 9025) Spectrally Selected Suppression     CS: 'NONE'
+(0018, 9026) Spectrally Selected Excitation      CS: 'WATER'
+(0018, 9027) Spatial Pre-saturation              CS: 'SLAB'
+(0018, 9028) Tagging                             CS: 'NONE'
+(0018, 9029) Oversampling Phase                  CS: 'NONE'
+(0018, 9032) Geometry of k-Space Traversal       CS: 'RECTILINEAR'
+(0018, 9033) Segmented k-Space Traversal         CS: 'SINGLE'
+(0018, 9034) Rectilinear Phase Encode Reordering CS: 'UNKNOWN'
+(0018, 9035) Tag Thickness                       FD: 0.0
+(0018, 9036) Partial Fourier Direction           CS: 'FREQUENCY'
+(0018, 9037) Cardiac Synchronization Technique   CS: 'NONE'
+(0018, 9051) Transmit Coil Type                  CS: 'BODY'
+(0018, 9053) Chemical Shift Reference            FD: 4.68
+(0018, 9058) MR Acquisition Frequency Encoding S US: 116
+(0018, 9059) De-coupling                         CS: 'NO'
+(0018, 9064) k-space Filtering                   CS: 'RIESZ'
+(0018, 9069) Parallel Reduction Factor In-plane  FD: 1.0
+(0018, 9073) Acquisition Duration                FD: 43.55985641479492
+(0018, 9077) Parallel Acquisition                CS: 'YES'
+(0018, 9078) Parallel Acquisition Technique      CS: 'SENSE'
+(0018, 9081) Partial Fourier                     CS: 'NO'
+(0018, 9090) Velocity Encoding Direction         FD: [0.0, 0.0, 0.0]
+(0018, 9091) Velocity Encoding Minimum Value     FD: 0.0
+(0018, 9093) Number of k-Space Trajectories      US: 117
+(0018, 9100) Resonant Nucleus                    CS: '1H'
+(0018, 9101) Frequency Correction                CS: 'NO'
+(0018, 9155) Parallel Reduction Factor out-of-pl FD: 1.0
+(0018, 9168) Parallel Reduction Factor Second In FD: 1.0
+(0018, 9170) Respiratory Motion Compensation Tec CS: 'BREATH_HOLD'
+(0018, 9171) Respiratory Signal Source           CS: 'NONE'
+(0018, 9172) Bulk Motion Compensation Technique  CS: 'NONE'
+(0018, 9174) Applicable Safety Standard Agency   CS: 'IEC'
+(0018, 9179) Specific Absorption Rate Definition CS: 'IEC_WHOLE_BODY'
+(0018, 9180) Gradient Output Type                CS: 'DB_DT'
+(0018, 9181) Specific Absorption Rate Value      FD: 6.314807891845703
+(0018, 9182) Gradient Output                     FD: 76.13534312189792
+(0018, 9199) Water Referenced Phase Correction   CS: 'NO'
+(0018, 9200) MR Spectroscopy Acquisition Type    CS: ''
+(0018, 9231) MR Acquisition Phase Encoding Steps US: 117
+(0018, 9240) RF Echo Train Length                US: 0
+(0018, 9241) Gradient Echo Train Length          US: 1
+(0020, 0000) Group Length                        UL: 272
+(0020, 000d) Study Instance UID                  UI: 1.3.840.20100611.10100020004917501
+(0020, 000e) Series Instance UID                 UI: 1.3.46.670589.11.17491.5.0.6808.2010061110220628160
+(0020, 0010) Study ID                            SH: '798'
+(0020, 0011) Series Number                       IS: '901'
+(0020, 0012) Acquisition Number                  IS: '9'
+(0020, 0013) Instance Number                     IS: '1'
+(0020, 0052) Frame of Reference UID              UI: 1.3.46.670589.11.17491.5.0.6112.2010061110035153002
+(0020, 1040) Position Reference Indicator        LO: ''
+(0020, 9072) Frame Laterality                    CS: 'U'
+(0020, 9221)  Dimension Organization Sequence   1 item(s) ---- 
+   (0020, 9164) Dimension Organization UID          UI: 1.3.46.670589.11.17491.5.0.3940.2010061110564432000
+   ---------
+(0020, 9222)  Dimension Index Sequence   3 item(s) ---- 
+   (0020, 9164) Dimension Organization UID          UI: 1.3.46.670589.11.17491.5.0.3940.2010061110564432000
+   (0020, 9165) Dimension Index Pointer             AT: (0020, 9056)
+   (0020, 9167) Functional Group Pointer            AT: (0020, 9111)
+   (0020, 9421) Dimension Description Label         LO: 'Stack ID'
+   ---------
+   (0020, 9164) Dimension Organization UID          UI: 1.3.46.670589.11.17491.5.0.3940.2010061110564432000
+   (0020, 9165) Dimension Index Pointer             AT: (0020, 9057)
+   (0020, 9167) Functional Group Pointer            AT: (0020, 9111)
+   (0020, 9421) Dimension Description Label         LO: 'In-Stack Position Number'
+   ---------
+   (0020, 9164) Dimension Organization UID          UI: 1.3.46.670589.11.17491.5.0.3940.2010061110564432000
+   (0020, 9165) Dimension Index Pointer             AT: (0018, 9082)
+   (0020, 9167) Functional Group Pointer            AT: (0018, 9114)
+   (0020, 9421) Dimension Description Label         LO: 'Effective Echo Time'
+   ---------
+(0020, 9254) Respiratory Interval Time           FD: 0.0
+(0020, 9255) Nominal Respiratory Trigger Delay T FD: 0.0
+(0028, 0000) Group Length                        UL: 186
+(0028, 0002) Samples per Pixel                   US: 1
+(0028, 0004) Photometric Interpretation          CS: 'MONOCHROME2'
+(0028, 0008) Number of Frames                    IS: '231'
+(0028, 0010) Rows                                US: 240
+(0028, 0011) Columns                             US: 240
+(0028, 0100) Bits Allocated                      US: 16
+(0028, 0101) Bits Stored                         US: 12
+(0028, 0102) High Bit                            US: 11
+(0028, 0103) Pixel Representation                US: 0
+(0028, 0301) Burned In Annotation                CS: 'NO'
+(0028, 2110) Lossy Image Compression             CS: '00'
+(0028, 3003) LUT Explanation                     LO: 'Philips Real World Value Mapping'
+(0028, 9001) Data Point Rows                     UL: 1
+(0028, 9002) Data Point Columns                  UL: 0
+(0032, 0000) Group Length                        UL: 70
+(0032, 1032) Requesting Physician                PN: 'LILIAN MACHADO'
+(0032, 1060) Requested Procedure Description     LO: 'RESSONANCIA MAGNETICA DE ABDOME SUPERIOR'
+(0040, 0000) Group Length                        UL: 196
+(0040, 0241) Performed Station AE Title          AE: 'ACHIEVA_3T'
+(0040, 0244) Performed Procedure Step Start Date DA: '20100611'
+(0040, 0245) Performed Procedure Step Start Time TM: '100244'
+(0040, 0250) Performed Procedure Step End Date   DA: '20100611'
+(0040, 0251) Performed Procedure Step End Time   TM: '100244'
+(0040, 0253) Performed Procedure Step ID         SH: '329392964'
+(0040, 0254) Performed Procedure Step Descriptio LO: 'RESSONANCIA MAGNETICA DE ABDOME SUPERIOR'
+(0040, 0275)  Request Attributes Sequence   1 item(s) ---- 
+   (0040, 0007) Scheduled Procedure Step Descriptio LO: 'RESSONANCIA MAGNETICA DE ABDOME SUPERIOR'
+   (0040, 0009) Scheduled Procedure Step ID         SH: '798'
+   (0040, 1001) Requested Procedure ID              SH: '798'
+   ---------
+(0040, 0321)  Film Consumption Sequence   0 item(s) ---- 
+(0040, 0555)  Acquisition Context Sequence   0 item(s) ---- 
+(0040, 1001) Requested Procedure ID              SH: '798'
+(0040, 9210) LUT Label                           SH: 'Philips'
+
+(5200, 9229)  Shared Functional Groups Sequence   1 item(s) ---- 
+   (0008, 1140)  Referenced Image Sequence   3 item(s) ---- 
+      (0008, 1150) Referenced SOP Class UID            UI: Enhanced MR Image Storage
+      (0008, 1155) Referenced SOP Instance UID         UI: 1.3.46.670589.11.17491.5.20.1.1.6808.2010061110090906903
+      (0008, 1160) Referenced Frame Number             IS: '5'
+      (0040, a170)  Purpose of Reference Code Sequence   1 item(s) ---- 
+         (0008, 0100) Code Value                          SH: '121311'
+         (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+         (0008, 0104) Code Meaning                        LO: 'Localizer'
+         ---------
+      (2005, 0014) Private Creator                     OB: Array of 26 bytes
+      (2005, 1411) Private tag data                    OB: Array of 52 bytes
+      ---------
+      (0008, 1150) Referenced SOP Class UID            UI: Enhanced MR Image Storage
+      (0008, 1155) Referenced SOP Instance UID         UI: 1.3.46.670589.11.17491.5.20.1.1.6808.2010061110055329880
+      (0008, 1160) Referenced Frame Number             IS: '8'
+      (0040, a170)  Purpose of Reference Code Sequence   1 item(s) ---- 
+         (0008, 0100) Code Value                          SH: '121311'
+         (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+         (0008, 0104) Code Meaning                        LO: 'Localizer'
+         ---------
+      (2005, 0014) Private Creator                     OB: Array of 26 bytes
+      (2005, 1411) Private tag data                    OB: Array of 52 bytes
+      ---------
+      (0008, 1150) Referenced SOP Class UID            UI: Enhanced MR Image Storage
+      (0008, 1155) Referenced SOP Instance UID         UI: 1.3.46.670589.11.17491.5.20.1.1.6808.2010061110055329880
+      (0008, 1160) Referenced Frame Number             IS: '11'
+      (0040, a170)  Purpose of Reference Code Sequence   1 item(s) ---- 
+         (0008, 0100) Code Value                          SH: '121311'
+         (0008, 0102) Coding Scheme Designator            SH: 'DCM'
+         (0008, 0104) Code Meaning                        LO: 'Localizer'
+         ---------
+      (2005, 0014) Private Creator                     OB: Array of 26 bytes
+      (2005, 1411) Private tag data                    OB: Array of 52 bytes
+      ---------
+   (0018, 9006)  MR Imaging Modifier Sequence   1 item(s) ---- 
+      (0018, 0095) Pixel Bandwidth                     DS: '1142.85717773437'
+      (0018, 9020) Magnetization Transfer              CS: 'NONE'
+      (0018, 9022) Blood Signal Nulling                CS: 'NO'
+      (0018, 9028) Tagging                             CS: 'NONE'
+      (0018, 9098) Transmitter Frequency               FD: 127.80528799999999
+      ---------
+   (0018, 9042)  MR Receive Coil Sequence   1 item(s) ---- 
+      (0018, 1250) Receive Coil Name                   SH: 'SENSE-XL-Torso'
+      (0018, 9041) Receive Coil Manufacturer Name      LO: ''
+      (0018, 9043) Receive Coil Type                   CS: 'MULTICOIL'
+      (0018, 9044) Quadrature Receive Coil             CS: 'NO'
+      (0018, 9045)  Multi-Coil Definition Sequence   1 item(s) ---- 
+         (0018, 9047) Multi-Coil Element Name             SH: 'All'
+         (0018, 9048) Multi-Coil Element Used             CS: 'YES'
+         ---------
+      ---------
+   (0018, 9049)  MR Transmit Coil Sequence   1 item(s) ---- 
+      (0018, 1251) Transmit Coil Name                  SH: 'B'
+      (0018, 9050) Transmit Coil Manufacturer Name     LO: ''
+      (0018, 9051) Transmit Coil Type                  CS: 'BODY'
+      ---------
+   (0018, 9107)  MR Spatial Saturation Sequence   2 item(s) ---- 
+      (0018, 9104) Slab Thickness                      FD: 60.0
+      (0018, 9105) Slab Orientation                    FD: [-0.3544027805328369, 0.0, 0.0]
+      (0018, 9106) Mid Slab Position                   FD: [1.898734211921692, -42.312171936035156, 184.6456756591797]
+      ---------
+      (0018, 9104) Slab Thickness                      FD: 60.0
+      (0018, 9105) Slab Orientation                    FD: [-0.3544027805328369, 0.0, 0.0]
+      (0018, 9106) Mid Slab Position                   FD: [1.898734211921692, -44.477081298828125, -165.34762573242188]
+      ---------
+   (0018, 9112)  MR Timing and Related Parameters Sequence   1 item(s) ---- 
+      (0018, 0080) Repetition Time                     DS: '179.999404907226'
+      (0018, 0091) Echo Train Length                   IS: '7'
+      (0018, 1314) Flip Angle                          DS: '15'
+      (0018, 9176)  Operating Mode Sequence   3 item(s) ---- 
+         (0018, 9177) Operating Mode Type                 CS: 'STATIC FIELD'
+         (0018, 9178) Operating Mode                      CS: 'IEC_FIRST_LEVEL'
+         ---------
+         (0018, 9177) Operating Mode Type                 CS: 'RF'
+         (0018, 9178) Operating Mode                      CS: 'IEC_NORMAL'
+         ---------
+         (0018, 9177) Operating Mode Type                 CS: 'GRADIENT'
+         (0018, 9178) Operating Mode                      CS: 'IEC_NORMAL'
+         ---------
+      (0018, 9180) Gradient Output Type                CS: 'DB_DT'
+      (0018, 9182) Gradient Output                     FD: 76.13534312189792
+      (0018, 9239)  Specific Absorption Rate Sequence   1 item(s) ---- 
+         (0018, 9179) Specific Absorption Rate Definition CS: 'IEC_WHOLE_BODY'
+         (0018, 9181) Specific Absorption Rate Value      FD: 6.314807891845703
+         ---------
+      (0018, 9240) RF Echo Train Length                US: 0
+      (0018, 9241) Gradient Echo Train Length          US: 1
+      ---------
+   (0018, 9115)  MR Modifier Sequence   1 item(s) ---- 
+      (0018, 9009) Inversion Recovery                  CS: 'NO'
+      (0018, 9010) Flow Compensation                   CS: 'NONE'
+      (0018, 9016) Spoiling                            CS: 'NONE'
+      (0018, 9021) T2 Preparation                      CS: 'NO'
+      (0018, 9026) Spectrally Selected Excitation      CS: 'WATER'
+      (0018, 9027) Spatial Pre-saturation              CS: 'SLAB'
+      (0018, 9069) Parallel Reduction Factor In-plane  FD: 1.0
+      (0018, 9077) Parallel Acquisition                CS: 'YES'
+      (0018, 9078) Parallel Acquisition Technique      CS: 'SENSE'
+      (0018, 9081) Partial Fourier                     CS: 'NO'
+      (0018, 9155) Parallel Reduction Factor out-of-pl FD: 1.0
+      (0018, 9168) Parallel Reduction Factor Second In FD: 1.0
+      ---------
+   (0018, 9119)  MR Averages Sequence   1 item(s) ---- 
+      (0018, 0083) Number of Averages                  DS: '1'
+      ---------
+   (0018, 9125)  MR FOV/Geometry Sequence   1 item(s) ---- 
+      (0018, 0093) Percent Sampling                    DS: '100.862068176269'
+      (0018, 0094) Percent Phase Field of View         DS: '100'
+      (0018, 1312) In-plane Phase Encoding Direction   CS: 'COLUMN'
+      (0018, 9058) MR Acquisition Frequency Encoding S US: 116
+      (0018, 9231) MR Acquisition Phase Encoding Steps US: 117
+      (0018, 9232) MR Acquisition Phase Encoding Steps US: 1
+      ---------
+   (0020, 9071)  Frame Anatomy Sequence   1 item(s) ---- 
+      (0008, 2218)  Anatomic Region Sequence   1 item(s) ---- 
+         (0008, 0100) Code Value                          SH: 'T-62002'
+         (0008, 0102) Coding Scheme Designator            SH: 'SNM3'
+         (0008, 0104) Code Meaning                        LO: 'Liver'
+         ---------
+      (0020, 9072) Frame Laterality                    CS: 'U'
+      ---------
+
+PARA CADA IMAGEM, MANTEM:
+(5200, 9230)  Per-frame Functional Groups Sequence   231 (NUMERO DE IMAGENS) item(s) ----
+   (0018, 9114)  MR Echo Sequence   1 item(s) ---- 
+      (0018, 9082) Effective Echo Time                 FD: 5.757
+      ---------
+   (0018, 9152)  MR Metabolite Map Sequence   1 item(s) ---- 
+      (0018, 9080) Metabolite Map Description          ST: 'WATER'
+      ---------
+   (0018, 9226)  MR Image Frame Type Sequence   1 item(s) ---- 
+      (0008, 9007) Frame Type                          CS: ['ORIGINAL', 'PRIMARY', 'T1', 'NONE']
+      (0008, 9205) Pixel Presentation                  CS: 'MONOCHROME'
+      (0008, 9206) Volumetric Properties               CS: 'VOLUME'
+      (0008, 9207) Volume Based Calculation Technique  CS: 'NONE'
+      (0008, 9208) Complex Image Component             CS: 'MAGNITUDE'
+      (0008, 9209) Acquisition Contrast                CS: 'T1'
+      ---------
+   (0020, 9111)  Frame Content Sequence   1 item(s) ---- 
+      (0018, 9074) Frame Acquisition DateTime          DT: '20100611102206.26'
+      (0018, 9151) Frame Reference DateTime            DT: '20100611102206.26000'
+      (0018, 9220) Frame Acquisition Duration          FD: 43559.85641479492
+      (0020, 9056) Stack ID                            SH: '1'
+      (0020, 9057) In-Stack Position Number            UL: 10
+      (0020, 9128) Temporal Position Index             UL: 1
+      (0020, 9157) Dimension Index Values              UL: [1, 10, 5]
+      ---------
+   (0020, 9113)  Plane Position Sequence   1 item(s) ---- 
+      (0020, 0032) Image Position (Patient)            DS: ['-173.10127055644', '-218.69437223663', '-38.267589389654']
+      ---------
+   (0020, 9116)  Plane Orientation Sequence   1 item(s) ---- 
+      (0020, 0037) Image Orientation (Patient)         DS: ['1', '0', '0', '0', '0.99998086690902', '-0.0061854561790']
+      ---------
+   (0028, 9110)  Pixel Measures Sequence   1 item(s) ---- 
+      (0018, 0050) Slice Thickness                     DS: '6'
+      (0028, 0030) Pixel Spacing                       DS: ['1.45833337306976', '1.45833337306976']
+      ---------
+   (0028, 9132)  Frame VOI LUT Sequence   1 item(s) ---- 
+      (0028, 1050) Window Center                       DS: '785'
+      (0028, 1051) Window Width                        DS: '1364'
+      ---------
+   (0028, 9145)  Pixel Value Transformation Sequence   1 item(s) ---- 
+      (0028, 1052) Rescale Intercept                   DS: '0'
+      (0028, 1053) Rescale Slope                       DS: '1.46398046398046'
+      (0028, 1054) Rescale Type                        LO: 'US'
+      ---------
